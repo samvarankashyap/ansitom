@@ -12,11 +12,11 @@ ignore_dir = ['.git']
 
 setup(
     name='ansitom',
-    version='0.0.1',
+    version='0.0.2',
     description = 'Ansible playbook generator',
     author = 'samvaran kashyap rallabandi',
     author_email = 'samvaran.kashyap@gmail.com',
-    url = '',
+    url = 'https://github.com/samvarankashyap/ansitom',
     setup_requires=required,
     install_requires=required,
     entry_points='''
