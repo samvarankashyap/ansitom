@@ -1,3 +1,4 @@
+import os
 import click
 
 class Context(object):
@@ -17,3 +18,10 @@ def cli(context, verbose):
     """
     click.echo("Version: "+context.version)
     click.echo("Ansitom Ansitom Ansitom")
+    print "hello"
+
+@cli.command()
+@pass_context
+def init(config):
+    """ init module of ansitom """
+    click.echo('Initailise Ansitom :P !')
