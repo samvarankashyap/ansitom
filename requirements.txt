@@ -1,2 +1,2 @@
-ansible==2.2.1
-click==6.7
+ansible>=2.2.1
+click>=6.7
